@@ -1,0 +1,21 @@
+# Projet de programmation fonctionnelle: Calculatrice de Poker.
+
+
+### Compilation:
+    Pour compiler: > make
+    Nettoyer les fichiers intermédiaires de la compilation: > make clean
+    Supprimer les exécutables: > make mrproper
+
+### Exécution:
+    Pour le calcul des probabilités: ./compute fichier.txt
+    Pour l'interface graphique: ./gui fichier.txt
+    Pour jouer en ligne de commande: ./cli
+        Chaque joueur recois deux cartes au début et il y a trois cartes sur la table. Chaque joueur a la possibilité a tour de role d'avoir un showdwn ou non. S'ils repondent oui on affiche le vainqueur sinon on ajoute une carte a la table et on affiche les nouvelles probabilités de gain et on redemande si les joueurs souhaitent un showdown jsuqu'a ce qu'il y ait cinq cartes sur la table.
+
+### Module externe utilisés dans le projet:
+    Nous avons utiliser Str et Graphics.
+
+### Style de programmation:
+    Le projet est entièrement programmé en fonctionnel pur, sans utiliser des références ni des boucles, toutes les fonctions récursives sont terminales.
+
+Notre interface graphique affiche les résultats des fichiers test.
