@@ -1,0 +1,8 @@
+.DS_Store
+src/*.cmi
+src/*.cmo
+src/compute
+src/camlprog.exe
+src/gui
+src/*.cmx
+src/*.o
